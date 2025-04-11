@@ -2,10 +2,12 @@ body{
     background: linear-gradient(to bottom, lightpink, mediumpurple)
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-    width: 500px
+.card {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: lightslategray;
+    border-radius: 10px;
+    box-shadow: 3px 4px 10px rgba(255, 255, 255, 0.3);
+    font-style: italic;
 }
