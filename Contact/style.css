@@ -1,3 +1,11 @@
 body{
     background: linear-gradient(to bottom, lightpink, mediumpurple)
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 500px
+}
