@@ -3,7 +3,7 @@ body{
 }
 
 .card {
-    width: 300px;
+    width: 350px;
     margin: 100px auto;
     padding: 20px;
     background: darkgray;
@@ -13,7 +13,7 @@ body{
 }
 
 .links {
-    width: 300px;
+    width: 600px;
     margin: 100px auto;
     padding: 20px;
     background: darkgray;
