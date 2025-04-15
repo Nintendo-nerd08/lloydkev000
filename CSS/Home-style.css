@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(to bottom, yellowgreen, darkgreen)
+}
+
+.card {
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    background: darkgray;
+    border-radius: 10px;
+    box-shadow: 3px 4px 10px rgba(255, 255, 255, 0.3);
+    font-style: italic;
+}
+
+.links {
+    width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background: darkgray;
+    border-radius: 10px;
+    box-shadow: 3px 4px 10px rgba(255, 255, 255, 0.3);
+    font-style: italic;
+}
