@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to bottom, palevioletred, violet)
+    background: linear-gradient(to bottom, yellowgreen, darkgreen)
 }
 
 .card {
@@ -14,15 +14,15 @@ body{
 
 .links {
     top: -100px;
-    left: 0;
+    right: 0;
     position: fixed;
     width: 600px;
     margin: 100px auto;
     padding: 20px;
-    background: darkgray;
+    background: darkslategray;
     border-radius: 10px;
-    box-shadow: 3px 4px 10px rgba(255, 255, 255, 0.3);
     font-style: italic;
+    text-align: center;
 }
 
 .gallery {
