@@ -20,7 +20,7 @@ p{
 }
 
 body{
-    background: linear-gradient(to bottom, yellowgreen, darkgreen)
+    background: linear-gradient(to left, yellowgreen, darkgreen)
 }
 
 .card {
@@ -35,12 +35,12 @@ body{
 
 .links {
     top: -100px;
-    right: 0;
+    right: -5px;
     position: fixed;
-    width: 600px;
+    width: 1575px;
     margin: 100px auto;
     padding: 20px;
-    background: darkslategray;
+    background: lightsteelblue;
     border-radius: 10px;
     font-style: italic;
     text-align: center;
