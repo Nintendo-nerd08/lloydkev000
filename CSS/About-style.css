@@ -16,6 +16,9 @@ h1{
 }
 
 .links {
+    top: -100px;
+    left: 0;
+    position: fixed;
     width: 600px;
     margin: 100px auto;
     padding: 20px;
