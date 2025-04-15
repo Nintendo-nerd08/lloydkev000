@@ -13,6 +13,9 @@ body{
 }
 
 .links {
+    top: -100px;
+    left: 0;
+    position: fixed;
     width: 600px;
     margin: 100px auto;
     padding: 20px;
@@ -20,4 +23,27 @@ body{
     border-radius: 10px;
     box-shadow: 3px 4px 10px rgba(255, 255, 255, 0.3);
     font-style: italic;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery img {
+    flex: 1 1 calc(25% - 20px);
+    max-width: 100%;
+    height: auto;
+    margin: 10px 5px;
+    width: 290px;
+    border: 5px solid #333;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+    filter: grayscale(100%) brightness(110%) contrast(70%) blur(px);
+}
+
+.gallery img:hover {
+    border: 6px solid darkorange;
 }
