@@ -2,9 +2,12 @@ body{
     background: linear-gradient(to bottom, cadetblue, darkseagreen)
 }
 
+h1{
+    text-align: center;
+}
 .card {
-    width: 350px;
-    margin: 100px auto;
+    width: 650px;
+    margin: 90px auto;
     padding: 20px;
     background: darkgray;
     border-radius: 10px;
