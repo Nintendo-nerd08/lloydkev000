@@ -27,12 +27,12 @@ p{
     padding: 20px;
     background: cadetblue;
     border-radius: 10px;
-    box-shadow: 3px 4px 10px rgba(255, 255, 255, 0.3);
+    box-shadow: 3px 4px 10px black;
     font-style: italic;
 }
 
 body{
-    background: linear-gradient(to left, yellowgreen, darkgreen)
+    background: linear-gradient(to bottom, yellowgreen, darkgreen)
 }
 
 .card {
@@ -41,7 +41,7 @@ body{
     padding: 20px;
     background: darkgray;
     border-radius: 10px;
-    box-shadow: 3px 4px 10px rgba(255, 255, 255, 0.3);
+    box-shadow: 3px 4px 10px black;
     font-style: italic;
 }
 
@@ -54,10 +54,16 @@ body{
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
-    box-shadow:3px 4px 10px rgba(0, 0, 0, 0.3) ;
 }
 
 .btn:hover{
     background-image:  linear-gradient(#163a47, #2b6c0a);
     transition: background-color 0.3s;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
 }
