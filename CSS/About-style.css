@@ -4,10 +4,11 @@ body{
 
 h1{
     text-align: center;
+    font-family: cursive;
 }
 
 .card {
-    font-family: "Arial Narrow", serif;
+    font-family: cursive;
     width: 700px;
     margin: 150px auto;
     padding: 20px;
@@ -17,17 +18,20 @@ h1{
 }
 
 
-.btncard {
-    width: 55px;
-    padding: 10px;
-    background: cadetblue;
-    border-radius: 100px;
-    box-shadow: 3px 4px 10px black;
-    font-family: "Arial Narrow", serif;
+.binary {
+    color: Black;
+    padding:12px 24px;
+    font-size: 16px;
+    border: darkolivegreen;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-style: normal;
+    align-content: center;
 }
 
 .btn {
-    right: 200px;
+    right: 100px;
     background-image: linear-gradient(yellow, navajowhite);
     color: Black;
     padding:12px 12px;
@@ -46,11 +50,12 @@ h1{
 
 .contact-form{
     margin: 0 auto;
-    width: 650px;
+    width: 750px;
     padding: 20px;
     background: lightsteelblue;
     border-radius: 5px;
     box-shadow: 3px 4px 10px black;
-    font-family: "JetBrains Mono ExtraBold", fantasy;
+    font-family: cursive  ;
+    text-align: center;
 }
 
