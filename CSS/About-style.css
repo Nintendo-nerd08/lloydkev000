@@ -8,7 +8,7 @@ h1{
 
 .card {
     font-family: "Arial Narrow", serif;
-    width: 900px;
+    width: 700px;
     margin: 150px auto;
     padding: 20px;
     background: cornflowerblue;
@@ -53,3 +53,4 @@ h1{
     box-shadow: 3px 4px 10px black;
     font-family: "JetBrains Mono ExtraBold", fantasy;
 }
+
