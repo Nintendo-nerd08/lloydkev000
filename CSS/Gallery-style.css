@@ -50,8 +50,6 @@ body{
 .gallery img:hover {
     border: 6px solid darkorange;
 }
-
-#photo1 {
-    float: left;
-    text-allign: center;
+#photo{
+    float: unset;
 }
