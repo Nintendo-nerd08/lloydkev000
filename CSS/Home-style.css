@@ -8,16 +8,13 @@ h1{
 h2{
     font-family: "Comic Sans MS", ui-rounded;
 }
-p{
 
-}
-
-.btncard {
+.binary {
     width: 325px;
     margin: 20px auto;
     padding: 20px;
     background: cadetblue;
-    border-radius: 10px;
+    border-radius: 35px;
     box-shadow: 3px 4px 10px black;
     font-family: "Arial Narrow", serif;
 }
@@ -27,12 +24,12 @@ body{
 }
 
 .card {
-    font-family: "Arial Narrow", serif;
+    font-family: cursive;
     width: 900px;
     margin: 15px auto;
     padding: 20px;
     background: cornflowerblue;
-    border-radius: 20px;
+    border-radius: 45px;
     box-shadow: 3px 4px 10px black;
 }
 
@@ -42,7 +39,7 @@ body{
     padding:12px 24px;
     font-size: 16px;
     border: darkolivegreen;
-    border-radius: 8px;
+    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
     font-style: italic;
