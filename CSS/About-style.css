@@ -13,7 +13,7 @@ h1{
     margin: 150px auto;
     padding: 20px;
     background: cornflowerblue;
-    border-radius: 10px;
+    border-radius: 55px;
     box-shadow: 3px 4px 10px black;
 }
 
@@ -50,7 +50,7 @@ h1{
     width: 750px;
     padding: 20px;
     background: lightsteelblue;
-    border-radius: 5px;
+    border-radius: 55px;
     box-shadow: 3px 4px 10px black;
     font-family: cursive  ;
     text-align: center;
