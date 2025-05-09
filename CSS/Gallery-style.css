@@ -12,22 +12,43 @@ body{
     font-style: italic;
 }
 
+.btncard {
+    width: 55px;
+    padding: 10px;
+    background: cadetblue;
+    border-radius: 100px;
+    box-shadow: 3px 4px 10px black;
+    font-family: "Arial Narrow", serif;
+}
+
+.btn {
+    right: 500px;
+    background-image: linear-gradient(yellow, navajowhite);
+    color: Black;
+    padding:12px 12px;
+    font-size: 12px;
+    border: darkolivegreen;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-style: italic;
+}
 
 .links {
-    top: -100px;
-    right: -5px;
+    top: 400px;
+    left: 100px;
     position: fixed;
-    width: 1575px;
+    width: 750px;
     margin: 100px auto;
     padding: 20px;
-    background: lightsteelblue;
+    background: sandybrown;
     border-radius: 10px;
     font-style: italic;
     text-align: center;
 }
 
 .gallery {
-    float: right;
+    float: left;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
